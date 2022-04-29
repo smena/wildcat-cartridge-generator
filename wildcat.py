@@ -1,5 +1,12 @@
 from random import randint
 import markovify
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument('--count', metavar='N', type=int,
+                    help='Number of cartridges to generate')
+
+args = parser.parse_args()
 
 # Get raw base text as a list
 with open("./corpus.txt") as f:
@@ -20,13 +27,13 @@ text_model = markovify.NewlineText(new_corpus, state_size=1)
 
 
 # Print three randomly-generated sentences of no more than 280 characters
-for i in range(12):
+for i in range(args.count):
     name = None
     metric = randint(0, 1)
     if (metric == 0):
         caliber = f".{randint(0, 500)}"
     else:
         caliber = f"{randint(4, 12)}.{randint(0, 9)}×{randint(10, 80)}"
-    if name is None:
+    while name is None: # Markovify will sometimes return None for short sentences, so try until it doesn't
         name = text_model.make_short_sentence(30)
     print(f"{caliber} {name}")
