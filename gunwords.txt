@@ -1,8 +1,8 @@
-Alaskan
 A-Square
 Accelerator
 Ackley Bee
 Auto Max
+Auto
 BB Cap
 BMG
 BR
@@ -24,6 +24,7 @@ Casull
 Cheetah
 CheyTac
 DTC Europ
+Double-Base
 Eargesplitten Loudenboomer
 Express
 Extra Long
@@ -32,7 +33,9 @@ Government
 H&H Magnum
 HAM'R
 Henry
+Hi-Power
 Hornady Mach 2
+HM2
 Hornady Magnum Rimfire
 Hornet
 JDJ
@@ -48,12 +51,14 @@ Marlin
 NATO
 Newton
 Nitro Express
-No 2 Black Powder Express
-No 2 Nitro Express
+No. 2 Black Powder Express
+No. 2 Nitro Express
 Nosler
 Nyati
 Overkill
 PPC
+Powershot
+Power
 Purdey
 R Blaser
 Remington
@@ -64,6 +69,7 @@ Remington Jet
 Remington Magnum
 Rewa
 Rigby
+Ramshot
 Ruger
 SOCOM
 Savage Hi-Power
@@ -71,11 +77,13 @@ Sharps
 Short
 Snider
 Spitfire
+Single-Base
 Spotter-Tracer
 Springfield
 Stevens
 Stevens Short
 Steyr
+Sturm und Drang
 TC
 Tactical
 Taylor
@@ -96,12 +104,12 @@ Winchester Self-Loading
 Winchester Special
 Winchester Super Magnum
 Winchester Super Short Magnum
-rimfire
+Rimfire
 Black Powder Express
 Magnum Black Powder Express
 Martini–Henry
 Nitro Express
-No 1 Black Powder Express
+No. 1 Black Powder Express
 Savage
 2-inch American
 Raptor
@@ -146,13 +154,14 @@ Mannlicher–Carcano
 Mannlicher–Schönauer
 Marlin Express
 Mauser
+Mega
 Morris
 Musgrave
 Newton
 Nitro Express
-No 2 Magnum
-No 2 Nitro Express
-No 5 Rook
+No. 2 Magnum
+No. 2 Nitro Express
+No. 5 Rook
 Norma
 Norma Magnum
 PMC/Aguila
@@ -202,160 +211,3 @@ Wolverine
 XC
 Zipper
 Grendel
-Alligator Snapping Turtle
-American Alligator
-American Bison
-Atlantic Horseshoe Crab
-Bald Eagle
-Bighorn Sheep
-Black Bear
-Bobcat
-Brown Bear
-Bullfrog
-Chipmunk
-Coyote
-Elk
-Gila Monster
-Groundhog
-Hellbender
-Kit Fox
-Monarch Butterfly
-Moose
-Mountain Lion
-Nine-Banded Armadillo
-North American Manatee
-North American Porcupine
-Virginia Opossum
-Polar Bear
-Pronghorn
-Raccoon
-Western Diamondback Rattlesnake
-Roadrunner
-Wolf
-Philippine
-Coral
-American Mediterranean
-Arabian
-Sargasso
-South China
-Weddell
-Caribbean
-Mediterranean
-Gulf of Guinea 
-Tasman
-Bay of Bengal 
-Bering
-of Okhotsk
-Gulf of Mexico 
-Gulf of Alaska 
-Barents
-Norwegian
-East China
-Hudson Bay 
-Greenland
-Somov
-Mar de Grau 
-Riiser-Larsen
-of Japan 
-Argentine
-East Siberian
-Lazarev
-Kara
-Scotia
-Labrador
-Andaman
-Laccadive
-Irminger
-Solomon
-Mozambique Channel 
-Cosmonauts
-Banda
-Baffin Bay 
-Laptev
-Arafura
-Ross
-Chukchi
-Timor
-North
-Bellingshausen
-Beaufort
-Red
-Black
-Gulf of Aden 
-Yellow
-Baltic
-Caspian
-Libyan
-Mawson
-Levantine
-Java
-Gulf of Thailand 
-Celtic
-Gulf of Carpentaria 
-Celebes
-Tyrrhenian
-Sulu
-Cooperation
-Persian Gulf 
-Flores
-Gulf of Saint Lawrence 
-Bay of Biscay 
-Aegean
-Gulf of Anadyr 
-Molucca
-Oman
-Ionian
-Gulf of California 
-Balearic
-Adriatic
-able
-bad
-best
-better
-big
-black
-certain
-clear
-different
-early
-easy
-economic
-federal
-free
-full
-good
-great
-hard
-high
-human
-important
-international
-large
-late
-little
-local
-long
-low
-major
-military
-national
-new
-old
-only
-other
-political
-possible
-public
-real
-recent
-right
-small
-social
-special
-strong
-sure
-true
-white
-whole
-young
-Hacked

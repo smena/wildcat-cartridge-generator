@@ -1,19 +1,30 @@
 from random import randint
+from re import A
+from tkinter.font import names
 import markovify
 import argparse
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--count', metavar='N', type=int,
+parser.add_argument('--count', '-c', type=int,
                     help='Number of cartridges to generate')
+parser.add_argument('--big-bore', '-b', type=bool,
+                    help='For dangerous game')
+parser.add_argument('--metric', '-m', type=bool,
+                    help='Use metric cartridge designation')
 
 args = parser.parse_args()
 
 # Get raw base text as a list
-with open("./corpus.txt") as f:
-    text = f.read()
-name_list = list(text.split("\n"))
+with open("./adjectives.txt") as a:
+    names = a.read()
+with open("./gunwords.txt") as g:
+    names += g.read()
+with open("./awesomewords.txt") as l:
+    names += l.read()
 
-# Create initial cartridge name from 1 to 3 elements of the name_list to train the model
+name_list = list(names.split("\n"))
+
+# Create initial cartridge name seeds to train the model
 new_corpus = ""
 for i in range(200):
     name_length = randint(1, 3)
