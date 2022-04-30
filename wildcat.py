@@ -7,10 +7,6 @@ import argparse
 parser = argparse.ArgumentParser()
 parser.add_argument('--count', '-c', type=int,
                     help='Number of cartridges to generate')
-parser.add_argument('--big-bore', '-b', type=bool,
-                    help='For dangerous game')
-parser.add_argument('--metric', '-m', type=bool,
-                    help='Use metric cartridge designation')
 
 args = parser.parse_args()
 
