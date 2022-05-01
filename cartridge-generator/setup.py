@@ -12,6 +12,6 @@ setup (
     ],
     entry_points = '''
         [console_scripts]
-        generate=generate:__init__
+        wildcat=wildcat:__init__
     '''
 )

@@ -1,4 +1,4 @@
 
         [console_scripts]
-        module=module:__init__
+        wildcat=wildcat:__init__
     

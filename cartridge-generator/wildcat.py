@@ -3,16 +3,16 @@ from random import randint
 import markovify
 import argparse
 
-# parser = argparse.ArgumentParser()
-# parser.add_argument('--count', '-c', type=int,
-#                     help='Number of cartridges to generate')
-
-# args = parser.parse_args()
-
 def __init__():
-    generate_cartridge()
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--count', '-c',
+                        type=int,
+                        help='Number of cartridges to generate',
+                        default=1)
+    args = parser.parse_args()
+    generate_cartridge(args)
 
-def generate_cartridge():
+def generate_cartridge(args):
     # Get raw base text as a list
     with open("./adjectives.txt") as a:
         names = a.read()
@@ -37,7 +37,7 @@ def generate_cartridge():
 
     # Print three randomly-generated sentences of no more than 280 characters
     # for i in range(args.count):
-    for i in range(10):
+    for i in range(args.count):
         name = None
         metric = randint(0, 1)
         if (metric == 0):
