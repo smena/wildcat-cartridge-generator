@@ -9,7 +9,10 @@ import argparse
 
 # args = parser.parse_args()
 
-def generate_cartridge(count):
+def __init__():
+    generate_cartridge()
+
+def generate_cartridge():
     # Get raw base text as a list
     with open("./adjectives.txt") as a:
         names = a.read()

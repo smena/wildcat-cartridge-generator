@@ -12,6 +12,6 @@ setup (
     ],
     entry_points = '''
         [console_scripts]
-        module=module:__init__
+        generate=generate:__init__
     '''
 )

@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        module=module:__init__
+    

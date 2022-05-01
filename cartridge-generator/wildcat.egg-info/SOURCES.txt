@@ -1,0 +1,7 @@
+setup.py
+wildcat.egg-info/PKG-INFO
+wildcat.egg-info/SOURCES.txt
+wildcat.egg-info/dependency_links.txt
+wildcat.egg-info/entry_points.txt
+wildcat.egg-info/requires.txt
+wildcat.egg-info/top_level.txt
