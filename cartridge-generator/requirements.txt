@@ -1,0 +1,4 @@
+markovify
+argparse
+flask>2
+python-dotenv
