@@ -41,4 +41,5 @@ class Cartridge():
             while name is None: # Markovify will sometimes return None for short sentences, so try until it doesn't
                 name = text_model.make_short_sentence(30)
             cartridges.append(f"{caliber} {name}")
-        return cartridges
+        cartridge = '\n'.join(cartridges)
+        return cartridge
