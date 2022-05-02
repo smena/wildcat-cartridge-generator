@@ -2,7 +2,9 @@ from random import randint
 import markovify
 
 class Cartridge():
-    def __init__(args):
+    def __init__(self):
+        if not self.args:
+            self.args = []
         pass
 
     def generate_cartridge(args):
