@@ -1,4 +1,5 @@
 setup.py
+wildcat.py
 wildcat.egg-info/PKG-INFO
 wildcat.egg-info/SOURCES.txt
 wildcat.egg-info/dependency_links.txt

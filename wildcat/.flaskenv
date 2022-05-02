@@ -1,1 +1,1 @@
-FLASK_APP=cartridge-generator.py
+FLASK_APP=wildcat.py

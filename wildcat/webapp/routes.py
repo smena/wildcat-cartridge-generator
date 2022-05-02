@@ -1,8 +1,10 @@
 from flask import render_template
-from app import app
+from webapp import app
+import wildcat
 
 @app.route('/')
 @app.route('/index')
 def index():
     user = {'username': 'fooooooo'}
-    return render_template('index.html', title='Home', user=user)
+    name = wildcat.Cartridge()
+    return render_template('index.html', name=name)
