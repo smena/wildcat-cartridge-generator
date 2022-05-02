@@ -1,0 +1,9 @@
+{
+    "dev": {
+        "app_function": "webapp.__init__.app",
+        "profile_name": null,
+        "project_name": "wildcat",
+        "runtime": "python3.9",
+        "s3_bucket": "zappa-jsmvkr84w"
+    }
+}
