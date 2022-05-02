@@ -1,0 +1,19 @@
+service: wildcat
+
+provider:
+  name: aws
+  runtime: python3.6
+
+plugins:
+  - serverless-wsgi
+
+functions:
+  api:
+    handler: wsgi_handler.handler
+    events:
+      - http: ANY /
+      - http: ANY /{proxy+}
+
+custom:
+  wsgi:
+    app: api.app

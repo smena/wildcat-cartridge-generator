@@ -8,7 +8,8 @@ setup (
         'markovify==0.9.4',
         'argparse==1.4.0',
         'flask==2.1.2',
-        'python-dotenv==0.20.0'
+        'python-dotenv==0.20.0',
+        'zappa==0.54.1'
     ],
     entry_points = '''
         [console_scripts]
