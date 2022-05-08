@@ -4,8 +4,8 @@ from webapp import app
 from Cartridge import Cartridge
 from argparse import Namespace
 
-@app.route('/')
-@app.route('/index')
+@app.route('/', methods=['GET'])
+@app.route('/dev', methods=['GET'])
 def index():
     args_dict = {'username': 'fooooooo',
                 'count': 1
