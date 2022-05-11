@@ -1,6 +1,6 @@
 {
     "dev": {
-        "app_function": "webapp.__init__.app",
+        "app_function": "webapp.app",
         "profile_name": null,
         "project_name": "wildcat",
         "runtime": "python3.9",

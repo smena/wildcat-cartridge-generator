@@ -24,6 +24,9 @@ wildcat $ source venv/bin/activate
 ```
 
 # Manage deployment with Zappa via Dockerfile
+
+Zappa will automatically create the lambda and API gateway as long as the IAM user's access key has the correct permissions to do so.
+
 ## Deploy
 
 ```
@@ -31,6 +34,12 @@ $ export AWS_ACCESS_KEY_ID=xxxxxxxxxxxxxxxx
 $ export AWS_SECRET_ACCESS_KEY=xxxxxxxxxxxxxxxx
 $ docker build --platform linux/x86_64 --tag wildcat .
 $ docker run -e AWS_ACCESS_KEY_ID -e AWS_SECRET_ACCESS_KEY -it wildcat zappa deploy
+```
+
+## Update
+
+```
+$ docker run -e AWS_ACCESS_KEY_ID -e AWS_SECRET_ACCESS_KEY -it wildcat zappa update
 ```
 
 ## Undeploy
