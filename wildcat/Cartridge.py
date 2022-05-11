@@ -9,12 +9,12 @@ class Cartridge():
 
     def generate_cartridge(args):
         # Get raw base text as a list
-        with open("./adjectives.txt") as a:
+        with open("./text/adjectives.txt") as a:
             names = a.read()
-        with open("./gunwords.txt") as g:
+        with open("./text/gunwords.txt") as g:
             names += g.read()
-        with open("./awesomewords.txt") as l:
-            names += l.read()
+        with open("./text/intensifiers.txt") as i:
+            names += i.read()
 
         name_list = list(names.split("\n"))
 
